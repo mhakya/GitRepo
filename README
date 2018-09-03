@@ -1,0 +1,88 @@
+mhakya@Mhakya:~$ cd ~PythonPrograms
+bash: cd: ~PythonPrograms: No such file or directory
+mhakya@Mhakya:~$ ls 
+Desktop    Downloads         github   Music     Public          Templates
+Documents  examples.desktop  GitRepo  Pictures  PythonPrograms  Videos
+mhakya@Mhakya:~$ cd Python
+bash: cd: Python: No such file or directory
+mhakya@Mhakya:~$ cd PythonPrograms/
+mhakya@Mhakya:~/PythonPrograms$ ls
+Hello.py
+mhakya@Mhakya:~/PythonPrograms$ cp Hello.py /home/Mhakya/GitRepo
+cp: cannot create regular file '/home/Mhakya/GitRepo': No such file or directory
+mhakya@Mhakya:~/PythonPrograms$ cp Hello.py /GitRepo
+cp: cannot create regular file '/GitRepo': Permission denied
+mhakya@Mhakya:~/PythonPrograms$ cd..
+cd..: command not found
+mhakya@Mhakya:~/PythonPrograms$ cd ..
+mhakya@Mhakya:~$ ls
+Desktop    Downloads         github   Music     Public          Templates
+Documents  examples.desktop  GitRepo  Pictures  PythonPrograms  Videos
+mhakya@Mhakya:~$ cd P
+bash: cd: P: No such file or directory
+mhakya@Mhakya:~$ cd PythonPrograms/
+mhakya@Mhakya:~/PythonPrograms$ ls
+Hello.py
+mhakya@Mhakya:~/PythonPrograms$ CP  Hello.py /home/Mhakya/GitRepo
+CP: command not found
+mhakya@Mhakya:~/PythonPrograms$ CP Hello.py /home/Mhakya/GitRepo
+CP: command not found
+mhakya@Mhakya:~/PythonPrograms$ cp Hello.py /home/Mhakya/GitRepo
+cp: cannot create regular file '/home/Mhakya/GitRepo': No such file or directory
+mhakya@Mhakya:~/PythonPrograms$ cp Hello.py /home/Mhakya/GitRepo/
+cp: cannot create regular file '/home/Mhakya/GitRepo/': No such file or directory
+mhakya@Mhakya:~/PythonPrograms$ ls
+Hello.py
+mhakya@Mhakya:~/PythonPrograms$ cd ..
+mhakya@Mhakya:~$ cp /PythonPrograms/hello.py /GitRepo/
+cp: cannot stat '/PythonPrograms/hello.py': No such file or directory
+mhakya@Mhakya:~$ cp /PythonPrograms/Hello.py /GitRepo/Hello.py
+cp: cannot stat '/PythonPrograms/Hello.py': No such file or directory
+mhakya@Mhakya:~$ cp /home/Mhakya/PythonPrograms/Hello.py /home/Mhakya/GitRepo/Hello.py
+cp: cannot stat '/home/Mhakya/PythonPrograms/Hello.py': No such file or directory
+mhakya@Mhakya:~$ ls
+Desktop    Downloads         github   Music     Public          Templates
+Documents  examples.desktop  GitRepo  Pictures  PythonPrograms  Videos
+mhakya@Mhakya:~$ cp /home/Mhakya/PythonPrograms/Hello.py /home/Mhakya/Downloads/Hello.py
+cp: cannot stat '/home/Mhakya/PythonPrograms/Hello.py': No such file or directory
+mhakya@Mhakya:~$ cd ~/PythonPrograms/
+mhakya@Mhakya:~/PythonPrograms$ PWD
+PWD: command not found
+mhakya@Mhakya:~/PythonPrograms$ pwd
+/home/mhakya/PythonPrograms
+mhakya@Mhakya:~/PythonPrograms$ cd ..
+mhakya@Mhakya:~$ cd GitRepo/
+mhakya@Mhakya:~/GitRepo$ pwd
+/home/mhakya/GitRepo
+mhakya@Mhakya:~/GitRepo$ cp /home/mhakya/PythonPrograms/Hello.py /home/mhakya/Downloads/Hello.py
+mhakya@Mhakya:~/GitRepo$ pwd
+/home/mhakya/GitRepo
+mhakya@Mhakya:~/GitRepo$ cd ..
+mhakya@Mhakya:~$ pwd
+/home/mhakya
+mhakya@Mhakya:~$ ls
+Desktop    Downloads         github   Music     Public          Templates
+Documents  examples.desktop  GitRepo  Pictures  PythonPrograms  Videos
+mhakya@Mhakya:~$ cd GitRepo/
+mhakya@Mhakya:~/GitRepo$ ls
+README
+mhakya@Mhakya:~/GitRepo$ cd ..
+mhakya@Mhakya:~$ ls
+Desktop    Downloads         github   Music     Public          Templates
+Documents  examples.desktop  GitRepo  Pictures  PythonPrograms  Videos
+mhakya@Mhakya:~$ cd Downloads/
+mhakya@Mhakya:~/Downloads$ ls
+Hello.py
+mhakya@Mhakya:~/Downloads$ mv Hello.py /home/mhakya/GitRepo
+mhakya@Mhakya:~/Downloads$ ls
+mhakya@Mhakya:~/Downloads$ cd ..
+mhakya@Mhakya:~$ ls
+Desktop    Downloads         github   Music     Public          Templates
+Documents  examples.desktop  GitRepo  Pictures  PythonPrograms  Videos
+mhakya@Mhakya:~$ cd Gi
+bash: cd: Gi: No such file or directory
+mhakya@Mhakya:~$ cd GitRepo/
+mhakya@Mhakya:~/GitRepo$ ls
+Hello.py  README
+mhakya@Mhakya:~/GitRepo$ 
+
